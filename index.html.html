@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blinkit Homepage Mockup</title>
+  <style>
+    /* Reset */
+    * { box-sizing: border-box; margin:0; padding:0; font-family: Arial, sans-serif; }
+    body { background: #f4f6f8; color: #333; }
+
+    /* Header */
+    header { background: #fff; padding: 15px 30px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1.8rem; font-weight: bold; color: #e74c3c; }
+    .search-bar { flex: 1; margin: 0 20px; }
+    .search-bar input { width: 100%; padding: 8px 12px; border-radius: 4px; border: 1px solid #ccc; }
+    .header-buttons button { margin-left: 10px; padding: 8px 15px; border:none; border-radius: 4px; background:#e74c3c; color:#fff; cursor:pointer; }
+
+    /* Hero Section */
+    .hero { background: #ffede6; text-align: center; padding: 50px 20px; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 15px; color: #e74c3c; }
+    .hero p { font-size: 1.2rem; margin-bottom: 20px; }
+    .hero button { background: #e74c3c; color: #fff; border: none; padding: 12px 25px; border-radius: 5px; font-size: 1rem; cursor: pointer; }
+
+    /* Categories */
+    .categories { padding: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 15px; }
+    .category { background: #fff; padding: 20px; border-radius: 8px; text-align: center; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: 0.2s; }
+    .category:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+
+    /* Products */
+    .products { padding: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+    .product { background: #fff; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+    .product img { max-width: 100%; height: 150px; object-fit: cover; margin-bottom: 10px; border-radius: 5px; }
+    .product h4 { margin-bottom: 5px; font-size: 1rem; }
+    .product p { color: #e74c3c; font-weight: bold; margin-bottom: 10px; }
+    .product button { background: #e74c3c; color: #fff; border:none; padding:8px 12px; border-radius: 4px; cursor:pointer; }
+
+    /* Footer */
+    footer { text-align:center; padding:20px; color:#777; font-size:0.9rem; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">Blinkit</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search groceries...">
+    </div>
+    <div class="header-buttons">
+      <button>Login</button>
+      <button>Cart</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Groceries delivered in minutes</h1>
+    <p>30,000+ products delivered to your doorstep quickly and safely</p>
+    <button>Start Shopping</button>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <div class="category">Fruits & Vegetables</div>
+    <div class="category">Dairy & Eggs</div>
+    <div class="category">Snacks & Beverages</div>
+    <div class="category">Bakery</div>
+    <div class="category">Personal Care</div>
+    <div class="category">Household</div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 1">
+      <h4>Apple</h4>
+      <p>₹120/kg</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 2">
+      <h4>Milk</h4>
+      <p>₹50/L</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 3">
+      <h4>Biscuits</h4>
+      <p>₹40/pack</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product 4">
+      <h4>Toothpaste</h4>
+      <p>₹90</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2026 Blinkit. All rights reserved.
+  </footer>
+
+</body>
+</html>
